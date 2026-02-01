@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    margin: 40px auto;
+    background: #edd9c9;
+    border-radius: 40px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    transform: rotate(45deg);
+}
+
+.card {
+    background: #cfc5bd;
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.card img {
+    width: 220px;
+    border-radius: 20px;
+}
+
+.info {
+    flex: 1;
+    text-align: center;
+}
+
+.info h2 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.info p {
+    font-size: 16px;
+}
+
+.price {
+    margin: 20px 0;
+}
+
+button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
